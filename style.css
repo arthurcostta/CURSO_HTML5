@@ -2,22 +2,45 @@ body{
     background-color: rgb(92, 32, 92);
 }
 
-#title, .subtitle, .post_title, p{
+#title{
+    margin: 0;
+    margin-bottom: 15px;
     color:rgb(208, 202, 214)
 }
 
+.subtitle, .post_title, p, a{
+    color:rgb(208, 202, 214)
+}
+
+.profile_img{
+    border-radius: 50%;
+    border: 5px solid rgb(54, 46, 63);
+}
+
 #title{
-    text-align:center;
+    text-align:left;
 }
 
 .post_title{
     font-size: 20px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.img_contet{
+    margin-bottom: 15px;
+}
+
+.page_content{
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post{
     background: rgb(27, 3, 27);
-    padding: 15px 10px 5px 15px;
+    padding: 15px;
     border: 3px solid white;
-    margin: 15px 10px 5px 0;
+    border-radius: 55px;
+    margin-bottom: 15px;
 }
